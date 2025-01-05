@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dagnys-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11e6ad13460fbbddc9fd8759102880038a707423")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71476566c26712e32d6ad1874de4224524a3239c")]
 [assembly: System.Reflection.AssemblyProductAttribute("dagnys-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dagnys-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+[{
+"Id": 1,
+"supplierId": 1,
+"name": "mjöl",
+"price": 10.50
+},
+{
+"Id": 2,
+"supplierId": 2,
+"name": "socker",
+"price": 8.75
+}]

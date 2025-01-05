@@ -57,5 +57,42 @@ namespace dagnys_api.Data;
                 await context.SaveChangesAsync();
             }
         }
+
+
+        
+         public static async Task LoadPurchase(DataContext context)
+            {
+            var options = new JsonSerializerOptions{
+                PropertyNameCaseInsensitive = true
+            };
+
+            if(context.Purchases.Any()) return;
+
+            var json = File.ReadAllText("Data/json/purchases.json");
+            var purchases = JsonSerializer.Deserialize<List<Purchase>>(json, options);
+
+            if(purchases is not null && purchases.Count > 0){
+                await context.Purchases.AddRangeAsync(purchases);
+                await context.SaveChangesAsync();
+            }
+        }
+
+
+           public static async Task LoadRawMaterial(DataContext context)
+            {
+            var options = new JsonSerializerOptions{
+                PropertyNameCaseInsensitive = true
+            };
+
+            if(context.RawMaterials.Any()) return;
+
+            var json = File.ReadAllText("Data/json/materials.json");
+            var materials = JsonSerializer.Deserialize<List<RawMaterial>>(json, options);
+
+            if(materials is not null && materials.Count > 0){
+                await context.RawMaterials.AddRangeAsync(materials);
+                await context.SaveChangesAsync();
+            }
+        }
     }
     

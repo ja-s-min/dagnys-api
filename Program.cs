@@ -21,6 +21,8 @@ await context.Database.MigrateAsync();
 await Seed.LoadProducts(context);
 await Seed.LoadSupplier(context);
 await Seed.LoadRecipe(context);
+await Seed.LoadPurchase(context);
+await Seed.LoadRawMaterial(context);
 }
 catch (Exception ex)
 {Console.WriteLine("{0}", ex.Message);

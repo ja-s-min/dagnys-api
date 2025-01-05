@@ -155,3 +155,5 @@ C:\Users\root\Desktop\Ny mapp\dagnys-api\obj\Debug\net8.0\dagnys-api.csproj.Up2D
 C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\products.json
 C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\suppliers.json
 C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\recipes.json
+C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\purchases.json
+C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\materials.json

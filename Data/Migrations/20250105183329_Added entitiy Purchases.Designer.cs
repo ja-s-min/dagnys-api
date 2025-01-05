@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using dagnys_api.Data;
 
@@ -10,9 +11,11 @@ using dagnys_api.Data;
 namespace dagnys_api.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20250105183329_Added entitiy Purchases")]
+    partial class AddedentitiyPurchases
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
@@ -61,26 +64,6 @@ namespace dagnys_api.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Purchases");
-                });
-
-            modelBuilder.Entity("dagnys_api.Entities.RawMaterial", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("TEXT");
-
-                    b.Property<float>("Price")
-                        .HasColumnType("REAL");
-
-                    b.Property<int>("SupplierId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("RawMaterials");
                 });
 
             modelBuilder.Entity("dagnys_api.Entities.Recipe", b =>
