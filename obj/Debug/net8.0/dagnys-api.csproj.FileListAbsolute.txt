@@ -152,3 +152,6 @@ C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\runtimes\browser\lib\n
 C:\Users\root\Desktop\Ny mapp\dagnys-api\obj\Debug\net8.0\dagnys-api.csproj.AssemblyReference.cache
 C:\Users\root\Desktop\Ny mapp\dagnys-api\obj\Debug\net8.0\dagnys-api.sourcelink.json
 C:\Users\root\Desktop\Ny mapp\dagnys-api\obj\Debug\net8.0\dagnys-api.csproj.Up2Date
+C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\products.json
+C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\suppliers.json
+C:\Users\root\Desktop\Ny mapp\dagnys-api\bin\Debug\net8.0\Data\json\recipes.json
